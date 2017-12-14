@@ -1,0 +1,5 @@
+[target]
+hostname ansible_connection=ssh ansible_user=user ansible_ssh_private_key_file=~/.ssh/ansiblekey
+
+[target:vars]
+ansible_python_interpreter=/usr/bin/python
