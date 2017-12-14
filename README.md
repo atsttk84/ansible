@@ -13,3 +13,13 @@ sed -i 's/^#PubkeyAuthentication yes/PubkeyAuthentication yes/g' /etc/ssh/sshd_c
 wget -O ~/.ssh/ansiblekey https://raw.githubusercontent.com/atsttk84/ansible/master/tempkey/id_ed25519
 chmod 600 ~/.ssh/ansiblekey
 ```
+
+### confirm
+```
+$ ansible -i hosts target -m ping
+192.168.1.1 | SUCCESS => {
+    "changed": false, 
+    "failed": false, 
+    "ping": "pong"
+}
+```
