@@ -23,3 +23,10 @@ $ ansible -i hosts target -m ping
     "ping": "pong"
 }
 ```
+## reference
+* http://docs.ansible.com/ansible/latest/index.html
+* http://docs.ansible.com/ansible-container/index.html
+* https://ansible-tips-and-tricks.readthedocs.io/en/latest/
+* https://github.com/ansible/ansible-examples
+* https://github.com/enginyoyen/ansible-best-practises
+* https://coderwall.com/t/ansible/popular
